@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /server/node_modules
+/server/.envgit
 /client/task-manager/node_modules
 /.pnp
 .pnp.js
