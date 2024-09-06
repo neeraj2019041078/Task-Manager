@@ -13,6 +13,7 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    // console.log('Submitting form with data:', formData);
     try {
       await register(formData);
       navigate('/login');
